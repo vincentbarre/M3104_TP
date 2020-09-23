@@ -3,7 +3,7 @@
 class Utilisateur
 {
 
-    protected $login;
+    protected $login = null;
 
     public function getAuth($login, $password)
     {
@@ -13,6 +13,7 @@ class Utilisateur
                 $this->login = $login;
                 return true;
             } else {
+                $this->login = null;
                 return false;
             }
         }

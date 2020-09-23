@@ -3,7 +3,7 @@
 class Utilisateur
 {
 
-    protected $login;
+    protected $login = null;
 
     /**
      * Permet de valider un couple (login,pass) auprès d'une base de données.
