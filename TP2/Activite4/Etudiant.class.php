@@ -9,9 +9,6 @@ include_once ("Utilisateur.class.php");
 class Etudiant extends Utilisateur
 {
 
-    protected $groupe;
     protected $cours = [];
-    protected $resultats = [];
-    protected $productions = [];
 
 }
