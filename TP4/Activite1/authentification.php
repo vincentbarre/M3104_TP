@@ -8,7 +8,7 @@
  *
  * @return int code d'état HTTP à renvoyer au client.
  */
-function authentification(string $login, string $password): int
+function authentification($login, $password)
 {
 
     include_once ("Utilisateur.class.php");
