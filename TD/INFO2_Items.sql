@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `INFO2_Items`
+-- Structure de la table `INFO2_items`
 --
 
-CREATE TABLE `INFO2_Items` (
+CREATE TABLE `INFO2_items` (
   `id` int(11) NOT NULL,
   `description` varchar(250) NOT NULL,
   `slug` varchar(32) NOT NULL,
@@ -35,10 +35,10 @@ CREATE TABLE `INFO2_Items` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Déchargement des données de la table `INFO2_Items`
+-- Déchargement des données de la table `INFO2_items`
 --
 
-INSERT INTO `INFO2_Items` (`id`, `description`, `slug`, `expiration`) VALUES
+INSERT INTO `INFO2_items` (`id`, `description`, `slug`, `expiration`) VALUES
 (1, 'Maîtriser les subtilités du PHP', 'maitriser-subtilites-php', '2020-09-11 00:00:13'),
 (2, 'Comprendre les frameworks', 'comprendre-les-frameworks', '2020-09-13 00:00:14');
 
@@ -47,9 +47,9 @@ INSERT INTO `INFO2_Items` (`id`, `description`, `slug`, `expiration`) VALUES
 --
 
 --
--- Index pour la table `INFO2_Items`
+-- Index pour la table `INFO2_items`
 --
-ALTER TABLE `INFO2_Items`
+ALTER TABLE `INFO2_items`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `slug` (`slug`);
 
@@ -58,9 +58,9 @@ ALTER TABLE `INFO2_Items`
 --
 
 --
--- AUTO_INCREMENT pour la table `INFO2_Items`
+-- AUTO_INCREMENT pour la table `INFO2_items`
 --
-ALTER TABLE `INFO2_Items`
+ALTER TABLE `INFO2_items`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
