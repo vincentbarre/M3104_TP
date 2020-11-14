@@ -11,3 +11,4 @@ TP4 : Interactions client / serveur : AJAX
 
 TP 5 : Objets avancés
 
+Le dépôt contient également l'exemple commenté résumant la mise en oeuvre du sprint #2 du cycle de TDs
