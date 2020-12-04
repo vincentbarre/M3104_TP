@@ -11,4 +11,8 @@ TP4 : Interactions client / serveur : AJAX
 
 TP 5 : Objets avancés
 
+TP 6 : Sécurité des applications web (externe)
+
+TP 7 : Découverte d'un framework PHP (CodeIgniter 3)
+
 Le dépôt contient également l'exemple commenté résumant la mise en oeuvre du sprint #2 du cycle de TDs
